@@ -53,7 +53,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [On Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [On Frontend Mentor](https://www.frontendmentor.io/solutions/notification-page-solution-Pdc6Fc1sLo)
 - Live Site URL: [Github pages](https://itsale-o.github.io/notification-page/)
 
 ## My process
