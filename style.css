@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Medium;
+    src: url(assets/fonts/static/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url(assets/fonts/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Medium, sans-serif;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%);
+    max-width: 1450px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+main{
+    margin: auto;
+}
+
+#notifications-section{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+#notification-header{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#not{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+    color: hsl(224, 21%, 14%);
+    font-size: 1rem;
+    font-family: ExtraBold;
+    margin-right: .5rem;
+}
+
+#notification-quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: ExtraBold;
+    width: 23px;
+    height: 22px;
+    font-size: .8rem;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+}
+
+#mark-as-read{
+    color: hsl(219, 12%, 42%);
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+#mark-as-read:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+#notifications{
+    margin: 0 1rem 0 1rem;
+}
+
+.general-info{
+    display: flex;
+    flex-direction: row;   
+}
+
+.notification{
+    cursor: pointer;
+    margin-bottom: .5rem;
+    border-radius: 4px;  
+    padding: .8rem; 
+}
+
+.not-read{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.notification > .general-info > .avatar{
+    width: 50px;
+    padding-right: .8rem;    
+}
+
+.general-info > .notification-info > p{
+    color: hsl(219, 12%, 42%);
+    font-size: .8rem;
+    line-height: 1.1rem;
+    margin-bottom: .2rem;
+}
+
+.name{
+    font-family: ExtraBold;
+    color: hsl(224, 21%, 14%);
+}
+
+.name:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.recent-post{
+    font-family: ExtraBold;
+}
+
+.recent-post:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.not-read-sign{
+    display: block;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    background-color: hsl(1, 90%, 64%);
+}
+
+.group{
+    font-family: ExtraBold;
+    color: hsl(219, 12%, 42%);;
+}
+
+.group:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.private-message{
+    line-height: 1.2rem;
+    padding: .6rem;
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: 3px;
+    font-size: .75rem;
+    color: hsl(219, 12%, 42%);
+    margin-top: .5rem;  
+}
+
+.private-message:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+
+.chess-pic{
+    margin-left: auto;
+}
+
+@media(min-width: 700px){
+    #notifications-section{
+        width: fit-content;
+    }
+
+    .notification{
+        width: 520px;     
+    }
+
+    .notification > .general-info > .adjust{
+        height: 40px;   
+    }
+
+    .not-read-sign{
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+
+    .private-message{    
+        width: 420px;
+        margin-left: 3rem;
+    }
+
+    .chess-pic{
+        width: 50px;
+    }
+}
+
+@media(max-width: 700px){
+    #notifications-section{
+        width: 360px;
+    }
+
+    .notification{
+        width: 330px;     
+    }
+
+    .notification > .general-info > .adjust-mobile{
+        height: 40px;   
+    }
+
+    .first-sign{
+        width: 12px;
+        position: relative;
+        top: 21px;
+        right: 45px;
+    }
+
+    .second-sign{
+        position: relative;
+        top: 5px;
+        left: 5px;   
+    }
+
+    .third-sign{
+        position: relative;
+        top: 22px;
+        right: 175px;
+    }
+
+    .private-message{    
+        width: 220px;
+        margin-left: 3rem;
+    }
+
+    .chess-pic{
+        width: 30px;
+        height: 30px;
+        margin-left: 3rem;
+    }
+}
+
+footer{
+    color: hsl(224, 21%, 14%);;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer a{
+    color: hsl(219, 85%, 26%);;
+}
