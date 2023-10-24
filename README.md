@@ -66,6 +66,6 @@ Users should be able to:
 
 ## Author
 
-- LinkedIn - [Alessandra Oliveira](https://www.your-site.com)
+- LinkedIn - [Alessandra Oliveira](https://www.linkedin.com/in/alessandra-santos-oliveira/)
 - Frontend Mentor - [@itsale-o](https://www.frontendmentor.io/profile/itsale-o)
 - Twitter - [@itsale_o](https://www.twitter.com/itsale_o)
